@@ -70,3 +70,5 @@ On Windows, `run_sim.ps1` runs all three steps.
 - Randomized testing against a reference model
 - Run the design on an FPGA board
 - Use the ALU as the core of a simple RISC-V CPU
+
+**Levi Herndon** · Electrical Engineering, Colorado School of Mines · [LinkedIn](https://www.linkedin.com/in/levi-herndon/)
