@@ -1,0 +1,39 @@
+[*]
+[*] GTKWave save file for the 32-bit ALU testbench
+[*]
+[dumpfile] "ALU_tb.vcd"
+[timestart] 0
+[size] 1400 700
+[pos] -1 -1
+[treeopen] ALU_tb.
+[sst_width] 180
+[signals_width] 180
+[sst_expanded] 1
+[sst_vpaned_height] 200
+@24
+ALU_tb.test_num[7:0]
+@28
+ALU_tb.pass
+@200
+-
+-Inputs
+@820
+ALU_tb.op_name[23:0]
+@22
+ALU_tb.a[31:0]
+ALU_tb.b[31:0]
+@200
+-
+-Output
+@22
+ALU_tb.result[31:0]
+@200
+-
+-Flags
+@28
+ALU_tb.zero
+ALU_tb.negative
+ALU_tb.carry
+ALU_tb.overflow
+[pattern_trace] 1
+[pattern_trace] 0
