@@ -2,7 +2,7 @@
 
 A 32-bit arithmetic logic unit written in Verilog that supports addition, subtraction, logical shift left, and logical shift right, with zero, negative, carry, and overflow flags. The design is verified with a self-checking testbench in Icarus Verilog, and the waveforms are viewed in GTKWave.
 
-![ALU schematic](media/ALU_schematic.png)
+![ALU schematic](ALU_schematic.png)
 
 ## Operations
 
