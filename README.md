@@ -39,9 +39,9 @@ The testbench in `ALU_tb.v` runs 17 test cases through a `check` task that compa
 
 **All 17 tests pass.**
 
-![Testbench output](media/testbench_output.png)
+![Testbench output](testbench_output.png)
 
-![GTKWave waveform](media/waveform_gtkwave.png)
+![GTKWave waveform](waveform_gtkwave.png)
 
 ## Running It
 
@@ -53,7 +53,7 @@ vvp alu_sim
 gtkwave ALU_tb.vcd ALU_tb.gtkw
 ```
 
-On Windows, `run_sim.ps1` runs all three steps.
+In GTKWave, click **Zoom Fit** to see all 17 tests at once.
 
 ## Files
 
@@ -70,5 +70,7 @@ On Windows, `run_sim.ps1` runs all three steps.
 - Randomized testing against a reference model
 - Run the design on an FPGA board
 - Use the ALU as the core of a simple RISC-V CPU
+
+---
 
 **Levi Herndon** · Electrical Engineering, Colorado School of Mines · [LinkedIn](https://www.linkedin.com/in/levi-herndon/)
